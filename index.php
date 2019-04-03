@@ -24,81 +24,20 @@
 </head>
 
 <body id="mimin" class="dashboard">
-<!-- start: Header -->
-<nav class="navbar navbar-default header navbar-fixed-top">
-  <div class="col-md-12 nav-wrapper">
-    <div class="navbar-header" style="width:100%;">
-      <div class="opener-left-menu is-open"> <span class="top"></span> <span class="middle"></span> <span class="bottom"></span> </div>
-      <a href="index.html" class="navbar-brand"> <b>维佳集团</b> </a>
-      <ul class="nav navbar-nav navbar-right user-nav">
-        <li class="user-name"><span>郑大根</span></li>
-        <li class="dropdown avatar-dropdown"> <img src="asset/img/avatar.jpg" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
-          <ul class="dropdown-menu user-dropdown">
-            <li><a href="#"><span class="fa fa-power-off"></span> 退出登录</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- end: Header -->
+      
+      <?php include 'head.html';?>
+
 <div class="container-fluid mimin-wrapper"> 
-  <!-- start:Left Menu -->
-  <div id="left-menu">
-    <div class="sub-left-menu scroll">
-      <ul class="nav nav-list">
-        <li>
-          <div class="left-bg"></div>
-        </li>
-        <li class="active ripple"> <a  href="#" class="tree-toggle nav-header"><span class="fa-home fa"></span> 首页<span class="fa-angle-right fa right-arrow text-right"></span> </a> </li>
-        <li class="ripple"> <a class="tree-toggle nav-header"> <span class="fa-diamond fa"></span> 资料中心 <span class="fa-angle-right fa right-arrow text-right"></span> </a>
-          <ul class="nav nav-list tree">
-            <li><a href="list.html">列表1</a></li>
-            <li><a href="edit.html">列表2</a></li>
-          </ul>
-        </li>
-        <li class="ripple"> <a class="tree-toggle nav-header"> <span class="fa-diamond fa"></span> 人事管理 <span class="fa-angle-right fa right-arrow text-right"></span> </a>
-          <ul class="nav nav-list tree">
-            <li><a href="#">列表1</a></li>
-            <li><a href="#">列表2</a></li>
-          </ul>
-        </li>
-        <li class="ripple"> <a class="tree-toggle nav-header"> <span class="fa-diamond fa"></span> 工作计划 <span class="fa-angle-right fa right-arrow text-right"></span> </a>
-          <ul class="nav nav-list tree">
-            <li><a href="#">列表1</a></li>
-            <li><a href="#">列表2</a></li>
-          </ul>
-        </li>
-        <li class="ripple"> <a class="tree-toggle nav-header"> <span class="fa-diamond fa"></span> 行政管理 <span class="fa-angle-right fa right-arrow text-right"></span> </a>
-          <ul class="nav nav-list tree">
-            <li><a href="#">列表1</a></li>
-            <li><a href="#">列表2</a></li>
-          </ul>
-        </li>
-        <li class="ripple"> <a class="tree-toggle nav-header"> <span class="fa-diamond fa"></span> 公共信息 <span class="fa-angle-right fa right-arrow text-right"></span> </a>
-          <ul class="nav nav-list tree">
-            <li><a href="#">列表1</a></li>
-            <li><a href="#">列表2</a></li>
-          </ul>
-        </li>
-        <li class="ripple"> <a class="tree-toggle nav-header"> <span class="fa-diamond fa"></span> 个人事务 <span class="fa-angle-right fa right-arrow text-right"></span> </a>
-          <ul class="nav nav-list tree">
-            <li><a href="#">列表1</a></li>
-            <li><a href="#">列表2</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <!-- end: Left Menu --> 
-  
+      
+      <?php include 'left.html';?>
+   
   <!-- start: content -->
   <div id="content">
     <div class="panel">
       <div class="panel-body">
         <div class="col-md-6 col-sm-12">
-          <h3 class="animated fadeInLeft">欢迎您：xxxxx</h3>
-          <p class="animated fadeInDown"><span class="fa  fa-map-marker"></span> 开发部</p>
+          <h3 class="animated fadeInLeft">欢迎您：郑大根</h3>
+          <p class="animated fadeInDown"><span class="fa  fa-map-marker"></span> 维佳集团本部-信息管理部-PHP工程师</p>
         </div>
       </div>
     </div>
@@ -204,7 +143,7 @@
 <script src="asset/js/main.js"></script> 
 <!-- end: Javascript -->
 <div style="text-align:center;">
-<p>维佳集团官网:<a href="http://www.weigagroup.cn/" target="_blank">www.weijiagroup.cn</a></p>
+<p>Copyright2019郑大根.AllRightsReserved.<a href="http://www.weigagroup.cn/" target="_blank" >WWW.WEIGAGROUP.CN</a></p>
 </div>
 </body>
 </html>

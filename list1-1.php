@@ -6,7 +6,7 @@
 <meta name="author" content="xxxxx">
 <meta name="keyword" content="xxxxx">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>xxxxx</title>
+<title>资料中心</title>
 <!-- start: Css -->
 <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
 <!-- plugins -->
@@ -25,43 +25,14 @@
 
 <body id="mimin" class="dashboard">
 <!-- start: Header -->
-<nav class="navbar navbar-default header navbar-fixed-top">
-  <div class="col-md-12 nav-wrapper">
-    <div class="navbar-header" style="width:100%;">
-      <div class="opener-left-menu is-open"> <span class="top"></span> <span class="middle"></span> <span class="bottom"></span> </div>
-      <a href="index.html" class="navbar-brand"> <b>xxxxx</b> </a>
-      <ul class="nav navbar-nav navbar-right user-nav">
-        <li class="user-name"><span>xxx</span></li>
-        <li class="dropdown avatar-dropdown"> <img src="asset/img/avatar.jpg" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
-          <ul class="dropdown-menu user-dropdown">
-            <li><a href="#"><span class="fa fa-power-off"></span> 退出登录</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    
+    <?php include 'head.html';?>
+    <?php include 'left.html';?>
+    
 <!-- end: Header -->
 <div class="container-fluid mimin-wrapper"> 
   <!-- start:Left Menu -->
-  <div id="left-menu">
-    <div class="sub-left-menu scroll">
-      <ul class="nav nav-list">
-        <li>
-          <div class="left-bg"></div>
-        </li>
-        <li class="ripple"> <a class="tree-toggle nav-header" id="left-menu-1"><span class="fa-home fa"></span> 首页 <span class="fa-angle-right fa right-arrow text-right"></span> </a> </li>
-        <li class="ripple active"> <a class="tree-toggle nav-header"  id="left-menu-2"> <span class="fa-diamond fa"></span> 表单 <span class="fa-angle-right fa right-arrow text-right"></span> </a>
-          <ul class="nav nav-list tree" >
-            <li><a href="list.html">列表</a></li>
-            <li><a href="edit.html">编辑</a></li>
-          </ul>
-        </li>
-        <li class=" ripple"> <a class="tree-toggle nav-header"  id="left-menu-3"><span class="fa fa-check-square-o"></span> 首页 <span class="fa-angle-right fa right-arrow text-right"></span> </a> </li>
-        <li class=" ripple"> <a class="tree-toggle nav-header"  id="left-menu-4"><span class="fa fa-calendar-o"></span> 首页 <span class="fa-angle-right fa right-arrow text-right"></span> </a> </li>
-      </ul>
-    </div>
-  </div>
+  
 
   <!-- end: Left Menu --> 
   
@@ -70,8 +41,8 @@
     <div class="panel">
       <div class="panel-body">
         <div class="col-md-12">
-          <h3 class="animated fadeInLeft">新增页面</h3>
-          <p class="animated fadeInDown"> 业务 <span class="fa-angle-right fa"></span> 新增页面 </p>
+          <h3 class="animated fadeInLeft">资料中心01</h3>
+          <p class="animated fadeInDown"> 业务 <span class="fa-angle-right fa"></span> xxxx </p>
         </div>
       </div>
     </div>

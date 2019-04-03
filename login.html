@@ -29,28 +29,58 @@
     <div class="panel periodic-login"> <span class="atomic-number">V3.0</span>
       <div class="panel-body text-center">
         <h1 class="atomic-symbol"><img src="asset/img/zl-logo.png" width="30%" alt=""></h1>
-        <p class="atomic-mass">xxxxx</p>
-        <p class="element-name">xxxxx</p>
+        <p class="atomic-mass">维佳集团</p>
+        <p class="element-name">OA系统</p>
         <i class="icons icon-arrow-down"></i>
         <div class="form-group form-animate-text" style="margin-top:40px !important;">
-          <input type="text" class="form-text" required>
+          <input type="text" class="form-text" id="reg_user" required>
           <span class="bar"></span>
           <label>账号</label>
         </div>
         <div class="form-group form-animate-text" style="margin-top:40px !important;">
-          <input type="password" class="form-text" required>
+          <input type="password" class="form-text" id="reg_password" required>
           <span class="bar"></span>
           <label>密码</label>
         </div>
         <label class="pull-left">
           <input type="checkbox" class="icheck pull-left" name="checkbox1"/>
           记住密码 </label>
-        <input type="submit" class="btn col-md-12" value="登 录"/>
+        <input type="submit" class="btn col-md-12" id="red_button" value="登 录"/>
       </div>
-      <div class="text-center" style="padding:5px;"> 版权所有：xxxxxx </div>
+      <div class="text-center" style="padding:5px;"> 版权所有：维佳集团 </div>
     </div>
   </form>
 </div>
+
+
+
+
+<script>
+$(function(){
+    var user_Boolean = false;
+
+var password_Boolean = false;
+
+//用户名认证
+$('#reg_user').blur(function(){
+  
+  if ($("#reg_user").val()==user,$('#reg_password').val)     
+});
+
+$('#red_button').click(function(){
+
+  if(user_Boolean == true)
+  {
+
+  }         
+  else
+    alert("用户名或密码错误！请输入正确的用户名或者密码！如没有用户名密码，请联系公司系统管理员");
+
+});
+
+});
+
+</script>
 
 <script src="asset/js/main.js"></script> 
 
